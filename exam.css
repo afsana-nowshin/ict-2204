@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+ 
+  nav{
+      width: 100%;
+      height: 12vh;
+      background-color: tomato;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .logo img{
+    width: 100px;
+    height: 80px;
+    border: 2px solid black;
+  
+  }
+  .logo2 img{
+    width: 100px;
+    height: 80px;
+    border: 2px solid black;
+
+  }
+  .logo-text{
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 1px;
+      font-size: 30px;
+  }
+  
+  .menu-bar{
+      width: 55%;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .menu-bar a{
+      ;text-decoration: none;
+      padding: 8px 8px;
+      color: white;
+      font-size: smaller;
+  }
+  .btn{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 12px 10px;
+    border-radius: 5px; 
+}
+
+.btn:hover{
+    background-color: lightseagreen;
+    text-transform: uppercase;
+    font-size: 15px;}
+
+    .row{
+        margin-top: 0%;
+        padding: 0%;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        
+       }
+       .home{
+        width: 100%;
+        margin: auto;
+    
+       }
+    .content-col{
+        flex-basis: 48%;
+        padding: 30px 2px;
+        
+    }
+    .content-col img{
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        padding-right: 10px;
+        border: 3px solid white;
+        
+    
+    }
+    
+    .part{
+        width:80%;
+        background-color: rgb(211, 211, 211);
+        min-height: 8vh;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin: 30px;
+        margin-left:2px;
+        padding: 30px;
+    }
+    .part:hover{
+        font-size: larger;
+    }
+    
+    .part1{
+        
+        margin-bottom: 20px;
+    }
+    .part1 p{
+        font-weight: lighter;
+    }
+    
+
+  .domain{
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    background-color: green;
+}
+.content-col2 img{
+    padding-top:  20px; ;
+    width: 90%;
+    height: 85%;
+    border-radius:10px ;
+    
+}
+.content-col3 img{
+    padding-top:  20px;
+    width: 90%;
+    height: 85%;
+    border-radius: 10px;
+    
+}
+
+.content-col4 img{
+padding-top: 20px;
+    width: 90%;
+    height: 85%;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
